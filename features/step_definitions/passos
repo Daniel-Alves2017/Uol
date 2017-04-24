@@ -1,0 +1,13 @@
+Dado(/^que esteja no site especifico$/) do
+  visit 'https://www.google.com.br'
+end
+
+Quando(/^buscar um site especifico$/) do
+  fill_in('q', :with => 'uol')
+end
+
+Quando(/^confirmar se esta no site e clicar no link economia$/) do
+  end
+
+Então(/^validar o valor do dollar$/) do
+  end
